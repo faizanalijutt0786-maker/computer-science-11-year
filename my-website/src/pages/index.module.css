@@ -1,12 +1,6 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
-  padding: 4rem 0;
+  padding: 5rem 0;
   text-align: center;
-  position: relative;
   overflow: hidden;
 }
 
@@ -16,8 +10,81 @@
   }
 }
 
+.heroTitle {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-top: 0.5rem;
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Features */
+.features {
+  padding: 4rem 0;
+}
+
+.featureCard {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.featureEmoji {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.featureTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.featureDesc {
+  font-size: 0.95rem;
+  color: var(--ifm-color-secondary-darkest);
+  line-height: 1.6;
+}
+
+/* Author teaser */
+.authorTeaser {
+  background: var(--ifm-color-emphasis-100);
+  padding: 4rem 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.authorTeaserInner {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.authorTeaserText h2 {
+  margin-bottom: 1rem;
+}
+
+.authorTeaserText p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-font-color-base);
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+  .heroSubtitle {
+    font-size: 1rem;
+  }
 }
