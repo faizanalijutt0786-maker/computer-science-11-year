@@ -1,4 +1,4 @@
-# CS11 Book — Pending Tasks
+stiyou# CS11 Book — Pending Tasks
 
 ## 1. Extract Chapters 2–9 (BLOCKER)
 - [ ] Install easyocr on fast internet: `pip install easyocr`

@@ -45,7 +45,9 @@ In software engineering, a framework is a standardized and reusable set of conce
 
 The SDLC is an organized method for developing software that ensures it meets quality requirements and functions properly. The SDLC consists of several steps as shown in Figure 1.1. Each step has distinct tasks and goals.
 
-> **Figure 1.1:** System development life cycle stages
+![Figure 1.1: System Development Life Cycle Stages](/img/chapter-1/figure-1-1.png)
+
+*Figure 1.1: System development life cycle stages*
 
 #### 1.2.2.1 Requirements
 
@@ -140,7 +142,9 @@ The Waterfall Model is a forward-only approach to software development where eac
 
 **Requirements → Design → Implementation → Testing → Deployment → Maintenance**
 
-> **Figure 1.2:** Waterfall Model
+![Figure 1.2: Waterfall Model](/img/chapter-1/figure-1-2.png)
+
+*Figure 1.2: Waterfall Model*
 
 **Benefits:**
 
@@ -162,7 +166,9 @@ Agile Methodology is a flexible and adaptive approach to software development. A
 - **Test-Driven Development:** Writing tests before writing the code to ensure the software works as expected.
 - **Pair Programming:** Two developers work together at one workstation, with one writing code and the other reviewing it in real-time.
 
-> **Figure 1.3:** Agile Methodology
+![Figure 1.3: Agile Methodology](/img/chapter-1/figure-1-3.png)
+
+*Figure 1.3: Agile Methodology*
 
 **Benefits:**
 
@@ -181,7 +187,9 @@ Agile Methodology is a flexible and adaptive approach to software development. A
 
 Project planning is like planning a trip. You need to know where you're going, how long it will take, and how much it will cost.
 
-> **Figure 1.4:** The 5 Phases of a Project Management Plan *(Initiation → Planning → Execution → Performance/Monitoring → Closing)*
+![Figure 1.4: The 5 Phases of a Project Management Plan](/img/chapter-1/figure-1-4.png)
+
+*Figure 1.4: The 5 Phases of a Project Management Plan (Initiation → Planning → Execution → Performance/Monitoring → Closing)*
 
 ### 1.4.1 Comprehensive Project Planning
 
@@ -260,9 +268,9 @@ The process of identifying use cases involves the following steps:
 3. **Outline Interactions:** Describe the interactions between the actors and the system to achieve a significant outcome.
 4. **Validate Use Cases:** Review the use cases with stakeholders to ensure they accurately capture the required functionalities and interactions.
 
-> **Figure 1.5:** Example Use Case Diagram for a Library System
->
-> *Actors: Librarian, Student | Use Cases: Borrow Book, Return Book*
+![Figure 1.5: Example Use Case Diagram for a Library System](/img/chapter-1/figure-1-5.png)
+
+*Figure 1.5: Example Use Case Diagram for a Library System*
 
 :::note Class Activity
 **Online Shopping Platform**
@@ -290,7 +298,9 @@ A class diagram is like a map that shows how things are organized in a system.
 - **Methods:** Boxes can perform actions like 'open' or 'close', similar to methods in a class diagram that define what the box can do.
 - **Specific Boxes:** Examples of specialized boxes include a 'ToyBox' for toys, a 'BookBox' for books, and a 'ClothesBox' for clothes, representing distinct instances of the general 'Box' class.
 
-> **Figure 1.6:** Class Diagram for Organizing Your Room
+![Figure 1.6: Class Diagram for Organizing Your Room](/img/chapter-1/figure-1-6.png)
+
+*Figure 1.6: Class Diagram for Organizing Your Room*
 
 #### 1.5.2.3 Sequence Diagrams
 
@@ -302,7 +312,9 @@ Sequence Diagrams show how objects in a system interact with each other in a par
 - **put toys/books/clothes inside:** User puts the respective items into the boxes.
 - **close():** User closes each box.
 
-> **Figure 1.7:** Sequence diagram of the user organizing items into labeled boxes
+![Figure 1.7: Sequence Diagram](/img/chapter-1/figure-1-7.png)
+
+*Figure 1.7: Sequence diagram of the user organizing items into labeled boxes*
 
 #### 1.5.2.4 Activity Diagrams
 
@@ -310,7 +322,9 @@ Activity Diagrams illustrate the flow of activities or steps in a process. They 
 
 **Example:** In a restaurant management system, an activity diagram can represent the process from 'Order Placement' to 'Food Preparation' and finally to 'Order Delivery'.
 
-> **Figure 1.8:** Activity Diagram with Decision and Connector Symbol
+![Figure 1.8: Activity Diagram](/img/chapter-1/figure-1-8.png)
+
+*Figure 1.8: Activity Diagram with Decision and Connector Symbol*
 
 ### 1.5.3 Using UML to Represent Software Systems
 
