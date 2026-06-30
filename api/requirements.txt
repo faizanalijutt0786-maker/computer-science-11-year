@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+requests
+groq
+qdrant-client
+python-multipart
+stripe
+python-jose[cryptography]
+psycopg2-binary
